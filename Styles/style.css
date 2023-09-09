@@ -115,4 +115,27 @@ body header .header-container .header-img .img2 {
   height: 168.828px;
   margin-top: 39px;
   margin-left: 454px;
+}
+body main .services {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+}
+body main .services .services-text {
+  width: 230px;
+  height: 60px;
+}
+body main .services .services-text h2 {
+  color: #131126;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+body main .services .services-icon img {
+  height: 60px;
+  width: 60px;
+  margin-left: 70px;
 }/*# sourceMappingURL=style.css.map */
