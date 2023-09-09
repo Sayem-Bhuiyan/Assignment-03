@@ -5,6 +5,16 @@
 }
 
 // Share styles
+button {
+    color: #131126;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 24px;
+    border: none;
+    background-color: #f8d3d4;
+    border-radius: 5px;
+}
+
 // Styles
 body {
     font-family: 'Plus Jakarta Sans';
@@ -17,7 +27,6 @@ body {
                 display: flex;
                 justify-content: space-around;
                 align-items: center;
-                .nav-logo {}
                 .navbar-menu {
                     margin-right: 300px;
                     ul {
@@ -33,14 +42,38 @@ body {
                         }
                     }
                 }
-                button {
-                    color: #131126;
-                    font-size: 14px;
+            }
+        }
+        .header-container {
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+            .header-info {
+                width: 40%;
+                .header-title {
+                    color: #201C44;
+                    font-size: 54px;
                     font-weight: 700;
-                    padding: 16px 24px;
-                    border: none;
-                    background-color: #f8d3d4;
-                    border-radius: 5px;
+                    line-height: 62px;
+                    margin-bottom: 40px;
+                }
+                .header-description {
+                    color: #131126;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 40px;
+                }
+                .content-wraper {
+                    button {
+                        margin-right: 32px;
+                    }
+                    .content-img {
+                        margin-right: 32px;
+                        height: 16px;
+                        width: 9px;
+                    }
                 }
             }
         }
