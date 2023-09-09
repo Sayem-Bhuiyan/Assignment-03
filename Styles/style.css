@@ -10,7 +10,7 @@ button {
   font-weight: 700;
   padding: 16px 24px;
   border: none;
-  background-color: #f8d3d4;
+  background-color: #FAE0E1;
   border-radius: 5px;
 }
 
@@ -46,6 +46,7 @@ body header .header-container {
   margin-top: 80px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 body header .header-container .header-info {
   width: 40%;
@@ -71,4 +72,47 @@ body header .header-container .header-info .content-wraper .content-img {
   margin-right: 32px;
   height: 16px;
   width: 9px;
+}
+body header .header-container .header-info .content-wraper span {
+  color: #131126;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+body header .header-container .header-info .rate-section {
+  margin-top: 60px;
+  display: flex;
+}
+body header .header-container .header-info .rate-section .rate-img {
+  height: 34px;
+  width: 34px;
+  background-color: #FAE0E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header .header-container .header-info .rate-section .rate-description {
+  color: #131126;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-left: 32px;
+}
+body header .header-container .header-img {
+  height: 580px;
+  width: 570px;
+  background-color: #FAE0E1;
+  position: relative;
+}
+body header .header-container .header-img .img1 {
+  height: 620px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -60px;
+}
+body header .header-container .header-img .img2 {
+  width: 172.108px;
+  height: 168.828px;
+  margin-top: 39px;
+  margin-left: 454px;
 }/*# sourceMappingURL=style.css.map */
