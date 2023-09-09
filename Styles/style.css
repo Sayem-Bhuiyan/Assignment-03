@@ -6,4 +6,38 @@
 
 body {
   font-family: "Plus Jakarta Sans";
+}
+body header {
+  margin-top: 30px;
+}
+body header nav {
+  height: 60px;
+  width: 100%;
+}
+body header nav .navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body header nav .navbar .navbar-menu {
+  margin-right: 300px;
+}
+body header nav .navbar .navbar-menu ul li {
+  display: inline;
+  margin-left: 80px;
+}
+body header nav .navbar .navbar-menu ul li a {
+  color: #201C44;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+body header nav .navbar button {
+  color: #131126;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 24px;
+  border: none;
+  background-color: #f8d3d4;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
