@@ -174,6 +174,32 @@ body {
                     line-height: 120%;
                     margin-bottom: 40px;
                 }
+                .info-description {
+                    color: #201C44;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    margin-bottom: 50px;
+                }
+                .about-section-icons {
+                    
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+                    gap: 30px;
+                    margin-bottom: 12px;
+                    .icon-img {
+                        height: 50px;
+                        width: 50px;
+                        background-color: #FAE0E1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                button {
+                    margin-top: 60px;
+                }
             }
         }
     }

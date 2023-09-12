@@ -166,4 +166,29 @@ body main .about-section .person-info .info-title {
   font-weight: 700;
   line-height: 120%;
   margin-bottom: 40px;
+}
+body main .about-section .person-info .info-description {
+  color: #201C44;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+body main .about-section .person-info .about-section-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 12px;
+}
+body main .about-section .person-info .about-section-icons .icon-img {
+  height: 50px;
+  width: 50px;
+  background-color: #FAE0E1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .about-section .person-info button {
+  margin-top: 60px;
 }/*# sourceMappingURL=style.css.map */
