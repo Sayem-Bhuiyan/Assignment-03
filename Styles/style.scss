@@ -117,6 +117,8 @@ body {
                     margin-bottom: 40px;
                 }
                 .content-wraper {
+                    display: flex;
+                    align-items: center;
                     button {
                         margin-right: 32px;
                     }
@@ -297,6 +299,7 @@ body {
                 }
 
                 p {
+                    
                     color: #131126;
                     font-size: 16px;
                     font-weight: 400;
@@ -312,7 +315,7 @@ body {
                     color: #131126;
                     font-size: 16px;
                     font-weight: 400;
-                    list-style: 28px;
+                    line-height: 28px;
                     padding: 16px;
                     padding-right: 40%;
                     margin-bottom: 20px;
@@ -345,6 +348,182 @@ body {
                 .icon2 {
                     margin-left: -560px;
                     margin-bottom: -260px;
+                }
+            }
+        }
+
+        .service-section {
+            margin-top: 100px;
+            .section-title {
+                text-align: center;
+                h3 {
+                    color: #201C44;
+                    font-size: 38px;
+                    font-weight: 700;
+                    line-height: 120%;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: #131126;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 40px;
+                }
+            }
+
+            .service-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 420px;
+                text-align: left;
+                gap: 20px;
+                .services {
+                    height: 100%;
+                    width: 30%;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    
+                    .service-img {
+                        height: 60%;
+                        width: 100%;
+                        border-radius: 10px;
+                        margin-bottom: 15px;
+                    }
+                    .img1 {
+                        background-image: url('../Assets/images/groupImg1.png');
+                        height: 100%;
+                        width: 100%;
+                        background-size: cover;
+                    }
+
+                    .img2 {
+                        background-image: url('../Assets/images/groupImg2.png');
+                        height: 100%;
+                        width: 100%;
+                        background-size: cover;
+                    }
+
+                    .img3 {
+                        background-image: url('../Assets/images/groupImg3.png');
+                        background-size: cover;
+                        height: 100%;
+                        width: 100%;
+                        background-position: bottom;
+                    }
+
+                    p {
+                        color: #131126;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-bottom: 20px;
+                    }
+
+                    h3 {
+                        color: #201C44;
+                        font-size: 24px;
+                        line-height: 32px;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                    }
+
+                    .icon {
+                        height: 50px;
+                        width: 50px;
+                        border-radius: 5px;
+                        background-color: #FAE0E1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        &:hover {
+                            background-color: rgba(255, 136, 0, 0.911);
+                        }
+                    }
+                }
+            }
+        }
+
+        .about-section3 {
+            margin-top: 150px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .header-info {
+                width: 40%;
+                .header-title {
+                    color: #201C44;
+                    font-size: 54px;
+                    font-weight: 700;
+                    line-height: 62px;
+                    margin-bottom: 40px;
+                }
+                .header-description {
+                    color: #131126;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                    margin-bottom: 40px;
+                }
+                .content-wraper {
+                    display: flex;
+                    align-items: center;
+                    button {
+                        margin-right: 32px;
+                    }
+                    .content-img {
+                        margin-right: 32px;
+                        height: 16px;
+                        width: 9px;
+                    }
+                    span {
+                        color: #131126;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 28px;
+                    }
+                }
+                .rate-section {
+                    margin-top: 60px;
+                    display: flex;
+                    .rate-img {
+                        height: 34px;
+                        width: 34px;
+                        background-color: #FAE0E1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .rate-description {
+                        color: #131126;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-left: 32px;
+                    }
+                }
+            }
+            .header-img {
+                height: 580px;
+                width: 570px;
+                position: relative;
+                .img1 {
+                    height: 620px;
+                    position: absolute;
+                    margin-top: -40px;
+                    margin-left: 70px;
+                }
+                .img2 {
+                    width: 172.108px;
+                    height: 168.828px;
+                    margin-top: 100px;
+                    margin-left: 400px;
                 }
             }
         }
