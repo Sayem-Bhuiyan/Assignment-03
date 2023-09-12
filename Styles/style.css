@@ -216,4 +216,28 @@ body main .about-section .person-info .about-section-icons .icon-img:hover {
 }
 body main .about-section .person-info button {
   margin-top: 60px;
+}
+body main .feature-section {
+  margin: 100px 50px;
+  height: 200px;
+  width: 100%;
+  background-color: #3C3679;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .feature-section .element {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+}
+body main .feature-section .element .img {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: #F3DEB3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
