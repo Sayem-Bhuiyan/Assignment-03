@@ -300,4 +300,18 @@ body main .about-section2 .about-section-info button {
 }
 body main .about-section2 .about-section2-img {
   width: 40%;
+  position: relative;
+}
+body main .about-section2 .about-section2-img .main-img {
+  height: 580px;
+  margin-left: -170px;
+  margin-top: -76px;
+}
+body main .about-section2 .about-section2-img .icon1 {
+  margin-left: 450px;
+  margin-bottom: -153px;
+}
+body main .about-section2 .about-section2-img .icon2 {
+  margin-left: -560px;
+  margin-bottom: -260px;
 }/*# sourceMappingURL=style.css.map */

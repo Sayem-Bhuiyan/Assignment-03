@@ -328,6 +328,24 @@ body {
 
             .about-section2-img {
                 width: 40%;
+                position: relative;
+                
+
+                .main-img {
+                    height: 580px;
+                    margin-left: -170px;
+                    margin-top: -76px;
+                }
+
+                .icon1 {
+                    margin-left: 450px;
+                    margin-bottom: -153px;
+                }
+
+                .icon2 {
+                    margin-left: -560px;
+                    margin-bottom: -260px;
+                }
             }
         }
     }
