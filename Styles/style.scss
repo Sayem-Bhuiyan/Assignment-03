@@ -156,5 +156,25 @@ body {
                 }
             }
         }
+        .about-section {
+            display: flex;
+            justify-content: space-around;
+            // align-items: center;
+            margin-top: 100px;
+            .person-img {
+                width: 60%;
+            }
+            .person-info {
+                width: 40%;
+                .info-title {
+                    color: #201C44;
+                    font-size: 38px;
+                    line-height: 60px;
+                    font-weight: 700;
+                    line-height: 120%;
+                    margin-bottom: 40px;
+                }
+            }
+        }
     }
 }
