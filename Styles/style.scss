@@ -13,6 +13,10 @@ button {
     border: none;
     background-color: #FAE0E1;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     &:hover {
         background-color: rgba(255, 136, 0, 0.911);
     }
@@ -269,7 +273,25 @@ body {
                 }
                 button {
                     margin-top: 60px;
+                    
                 }
+            }
+        }
+
+        // about section2 styles
+
+        .about-section2 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+            .about-section-info {
+                width: 40%;
+                display: block;
+            }
+
+            .about-section2-img {
+                width: 40%;
             }
         }
     }

@@ -12,6 +12,10 @@ button {
   border: none;
   background-color: #FAE0E1;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 button:hover {
   background-color: rgba(255, 136, 0, 0.911);
@@ -253,4 +257,16 @@ body main .about-section .person-info .about-section-icons .icon-img:hover {
 }
 body main .about-section .person-info button {
   margin-top: 60px;
+}
+body main .about-section2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .about-section2 .about-section-info {
+  width: 40%;
+  display: block;
+}
+body main .about-section2 .about-section2-img {
+  width: 40%;
 }/*# sourceMappingURL=style.css.map */
