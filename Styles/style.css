@@ -59,6 +59,9 @@ button:hover {
 }
 
 body {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
   font-family: "Plus Jakarta Sans";
 }
 body header {

@@ -62,6 +62,9 @@ button {
 
 // Styles
 body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
     font-family: 'Plus Jakarta Sans';
     header {
         margin-top: 30px;
