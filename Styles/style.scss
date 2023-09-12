@@ -527,5 +527,30 @@ body {
                 }
             }
         }
+        .ask-question-section {
+            .icon {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 15px;
+            }
+
+            .title {
+                text-align: center;
+
+                h3 {
+                    color: #201C44;
+                    font-size: 38px;
+                    font-weight: 700;
+                    line-height: 120%;
+                }
+
+                p {
+                    color: #131126; 
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+            }
+        }
     }
 }

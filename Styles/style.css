@@ -483,4 +483,24 @@ body main .about-section3 .header-img .img2 {
   height: 168.828px;
   margin-top: 100px;
   margin-left: 400px;
+}
+body main .ask-question-section .icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+body main .ask-question-section .title {
+  text-align: center;
+}
+body main .ask-question-section .title h3 {
+  color: #201C44;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+}
+body main .ask-question-section .title p {
+  color: #131126;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }/*# sourceMappingURL=style.css.map */
