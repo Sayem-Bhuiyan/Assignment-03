@@ -18,6 +18,44 @@ button {
     }
 }
 
+.feature-section {
+    margin: 100px 68px;
+    height: 200px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #3C3679;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .element {
+        width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+        .img {
+            height: 50px;
+            width: 50px;
+            border-radius: 5px;
+            background-color: #F3DEB3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+                background-color: rgba(255, 136, 0, 0.911);
+            }
+        }
+        p {
+            width: 60%;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+}
+
 // Styles
 body {
     font-family: 'Plus Jakarta Sans';
@@ -231,32 +269,6 @@ body {
                 }
                 button {
                     margin-top: 60px;
-                }
-            }
-        }
-
-        .feature-section {
-            margin: 100px 50px;
-            height: 200px;
-            width: 100%;
-            background-color: #3C3679;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            
-            .element {
-                display: flex;
-                justify-content: start;
-                align-items: center;
-                gap: 25px;
-                .img {
-                    height: 40px;
-                    width: 40px;
-                    border-radius: 5px;
-                    background-color: #F3DEB3;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
                 }
             }
         }
