@@ -503,4 +503,48 @@ body main .ask-question-section .title p {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+body footer .navbar {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer .navbar .nav-logo {
+  margin-left: 40px;
+}
+body footer .navbar .navbar-menu ul li {
+  display: inline;
+  margin-right: 80px;
+}
+body footer .navbar .navbar-menu ul li a {
+  color: #201C44;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+body footer .footer-section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+}
+body footer .footer-section .footer-info p {
+  color: #131126;
+  font-size: 14px;
+  font-weight: 400;
+}
+body footer .footer-section .footer-icon {
+  display: flex;
+  gap: 25px;
+}
+body footer .footer-section .footer-icon i {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */
