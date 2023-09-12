@@ -151,13 +151,33 @@ body main .services .services-icon img {
 body main .about-section {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-top: 100px;
 }
 body main .about-section .person-img {
   width: 60%;
+  position: relative;
+}
+body main .about-section .person-img .images {
+  width: 100%;
+  position: absolute;
+}
+body main .about-section .person-img .images .img1 {
+  margin-top: -350px;
+  margin-left: -150px;
+}
+body main .about-section .person-img .images .img2 {
+  position: absolute;
+  margin-left: 150px;
+  margin-top: -650px;
+}
+body main .about-section .person-img .images .img3 {
+  margin-left: 500px;
+  margin-top: -750px;
 }
 body main .about-section .person-info {
   width: 40%;
+  z-index: 10;
 }
 body main .about-section .person-info .info-title {
   color: #201C44;
@@ -173,6 +193,7 @@ body main .about-section .person-info .info-description {
   line-height: 28px;
   font-weight: 400;
   margin-bottom: 50px;
+  width: 80%;
 }
 body main .about-section .person-info .about-section-icons {
   display: flex;
@@ -184,10 +205,14 @@ body main .about-section .person-info .about-section-icons {
 body main .about-section .person-info .about-section-icons .icon-img {
   height: 50px;
   width: 50px;
+  border-radius: 5px;
   background-color: #FAE0E1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body main .about-section .person-info .about-section-icons .icon-img:hover {
+  background-color: rgba(255, 136, 0, 0.911);
 }
 body main .about-section .person-info button {
   margin-top: 60px;

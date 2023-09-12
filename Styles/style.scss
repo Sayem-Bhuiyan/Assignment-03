@@ -159,13 +159,40 @@ body {
         .about-section {
             display: flex;
             justify-content: space-around;
-            // align-items: center;
+            align-items: center;
             margin-top: 100px;
             .person-img {
                 width: 60%;
+                position: relative;
+                .images {
+                    width: 100%;
+                    position: absolute;
+                    .img1 {
+                        margin-top: -350px;
+                        margin-left: -150px;
+                        
+                    }
+
+                    .img2 {
+                        position: absolute;
+                        margin-left: 150px;
+                        margin-top: -650px;
+                        
+                    }
+
+                    .img3 {
+                        
+                        margin-left: 500px;
+                        margin-top: -750px;
+                        
+                        
+                    }
+                }
+
             }
             .person-info {
                 width: 40%;
+                    z-index: 10;
                 .info-title {
                     color: #201C44;
                     font-size: 38px;
@@ -180,6 +207,7 @@ body {
                     line-height: 28px;
                     font-weight: 400;
                     margin-bottom: 50px;
+                    width: 80%;
                 }
                 .about-section-icons {
                     
@@ -191,10 +219,14 @@ body {
                     .icon-img {
                         height: 50px;
                         width: 50px;
+                        border-radius: 5px;
                         background-color: #FAE0E1;
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        &:hover {
+                            background-color: rgba(255, 136, 0, 0.911);
+                        }
                     }
                 }
                 button {
